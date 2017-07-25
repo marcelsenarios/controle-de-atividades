@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt_BR">
   <head>
@@ -9,26 +10,23 @@
 
     <title>Conrole de atividades</title>
 
-    <!-- Folha de estilo do Boostrap 3.3.6 -->
-    <link href="<?=base_url('assets/css/bootstrap/bootstrap.min.css')?>" rel="stylesheet">
+    <!-- Folha de estilo do Boostrap 3.3.7 -->
+    <link rel="stylesheet" href="<?=base_url('assets/bootstrap/css/bootstrap.min.css')?>">
 
-    <!-- IE10 viewport hack para Surface/desktop Windows 8 -->
-    <link href="<?=base_url('assets/css/plugins/ie10-viewport-bug-workaround.css')?>" rel="stylesheet">
-
-    <!-- Folha de estilo com as configurações da fonte Source Sans Pro -->
-    <link rel='stylesheet' id='hexa-source-sans-pro-css'  href='http://fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C700%2C300italic%2C400italic%2C700italic&#038;ver=4.4.2' type='text/css' media='all' />
-
-    <!-- Folha de estilo padrão dos exemplos -->
-    <link href="<?=base_url('assets/css/estilo.css')?>" rel="stylesheet">
-
-    <!--[if lt IE 9]><script src="<?=base_url('assets/js/plugins/ie8-responsive-file-warning.js')?>"></script><![endif]-->
-    <script src="<?=base_url('assets/js/plugins/ie-emulation-modes-warning.js')?>"></script>
+        <!-- Folha de estilo do Font-Awesome 4.7.0 -->
+    <link rel="stylesheet" href="<?=base_url('assets/font-awesome/css/font-awesome.min.css')?>">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Folha de estilo padrão -->
+    <link href="<?=base_url('assets/css/estilo.css')?>" rel="stylesheet">
+
+
   </head>
 
   <body>
-<?php $this->load->view('commons/topo'); ?>
+
+    <?php $this->load->view('commons/topo'); ?>
